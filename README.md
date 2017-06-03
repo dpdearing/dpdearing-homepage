@@ -10,7 +10,7 @@ I thought that the http://www.ybrikman.com website was as an excellent template,
 and this is the result after some of my own minor modifications. 
 Forks and pull requests are welcome!
 
-**The origin repository for this fork is [brikis98/yevgeniy-brikman-homepage](/brikis98/yevgeniy-brikman-homepage)**
+**The upstream repository for this fork is [brikis98/yevgeniy-brikman-homepage](/brikis98/yevgeniy-brikman-homepage)**
 
 
 ---
