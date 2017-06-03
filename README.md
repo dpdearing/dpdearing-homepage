@@ -2,12 +2,12 @@
 
 This is the code for the [David Dearing Home Page](http://dpdearing.com), forked from the code for the [Yevgeniy Brikman Home Page](http://www.ybrikman.com).
 
-![David Dearing Home Page Screenshot](/assets/img/projects/dpdearing-homepage.png)
+![David Dearing Home Page Screenshot](/assets/img/screenshots/dpdearing-homepage-screenshot.png)
 
 I wanted a clean, simple home page where I could put my writing and projects.
 It had to be fast, mobile-friendly, free to build, and easy to update. 
-I thought that the ybrikman website was as an excellent template, and 
-this is the result after some of my own minor modifications.  
+I thought that the http://www.ybrikman.com website was as an excellent template, 
+and this is the result after some of my own minor modifications. 
 Forks and pull requests are welcome!
 
 **The origin repository for this fork is [brikis98/yevgeniy-brikman-homepage](/brikis98/yevgeniy-brikman-homepage)**
