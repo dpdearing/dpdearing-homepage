@@ -1,7 +1,8 @@
-- name: "Yevgeniy Brikman Homepage"
-  date: "2015"
+- name: "David Dearing Homepage"
+  date: "2017"
   description: |
-    I built all the pages you're looking at now using Jekyll, GitHub Pages, and
-    Basscss.
-  url: "https://github.com/brikis98/yevgeniy-brikman-homepage"
-  image: "yevgeniy-brikman-homepage.jpg"
+    I built this website from a fork of the GitHub repository for Yevgeniy Brikman's Homepage.
+    The site uses Jekyll, GitHub Pages, and Basscss.
+  image: "dpdearing-homepage.jpg"
+  image_class: border
+  url: "https://github.com/dpdearing/dpdearing-homepage"

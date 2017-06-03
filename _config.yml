@@ -5,9 +5,7 @@ baseurl: "/"
 nav:
   main:
     writing: "/writing"
-    speaking: "/speaking"
     projects: "/projects"
-    photos: "/photos"
   writing:
     all: "/writing"
     popular: "/writing/popular"
@@ -15,48 +13,22 @@ nav:
     rss: "/feed.xml"
 
 # Bio settings
-name: "Yevgeniy Brikman"
-description: "The home page of Yevgeniy (Jim) Brikman, co-founder of Gruntwork, author of &quot;Hello, Startup&quot; and &quot;Terraform: Up & Running&quot;, and software engineer at LinkedIn, TripAdvisor, Cisco Systems, and Thomson Financial."
-thumbnail_path: "yevgeniy-brikman-medium.jpg"
-hello_startup_url: "http://www.hello-startup.net/"
-website_repo_url: "https://github.com/brikis98/yevgeniy-brikman-homepage"
-atomic_squirrel_url: "http://www.atomic-squirrel.net/"
-gruntwork_url: "http://www.gruntwork.io/"
-terraform_up_and_running_url: "http://www.terraformupandrunning.com/"
-terraform_up_and_running_code_url: "https://github.com/brikis98/terraform-up-and-running-code"
+name: "David Dearing"
+description: "The home page of David Dearing, AI Software Engineer."
+#thumbnail_path: "dpdearing-medium.jpg"
+website_repo_url: "https://github.com/dpdearing/dpdearing-homepage"
 
 # URLs
 contact_urls:
   twitter:
-    url: "https://twitter.com/brikis98"
+    url: "https://twitter.com/dpdearing"
     label: "Twitter"
     icon: "twitter-square"
-    username: "@brikis98"
-  linkedin:
-    url: "https://www.linkedin.com/in/jbrikman"
-    label: "LinkedIn"
-    icon: "linkedin-square"
-  facebook:
-    url: "https://www.facebook.com/brikis98"
-    label: "Facebook"
-    icon: "facebook-square"
-  google:
-    url: "https://plus.google.com/+YevgeniyBrikman/"
-    label: "Google+"
-    icon: "google-plus-square"
-  slideshare:
-    url: "https://www.slideshare.net/brikis98"
-    label: "SlideShare"
-    icon: "slideshare"
+    username: "@dpdearing"
   github:
-    url: "https://github.com/brikis98/"
+    url: "https://github.com/dpdearing"
     label: "GitHub"
     icon: "github-square"
-  email:
-    url: "mailto:jim@ybrikman.com"
-    label: "Email"
-    value: "jim@ybrikman.com"
-    icon: "envelope-square"
 
 # Jekyll build settings
 paginate: 10
@@ -67,7 +39,7 @@ sass:
   style: :compressed
 highlighter: rouge
 timezone: 'America/Los_Angeles'
-repository: brikis98/yevgeniy-brikman-homepage
+repository: dpdearing/dpdearing-homepage
 
 # Plugins (GitHub Pages only support a few)
 gems:

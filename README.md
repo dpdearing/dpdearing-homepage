@@ -1,12 +1,19 @@
-# Yevgeniy Brikman Home Page
+# David Dearing Home Page
 
-This is the code for the [Yevgeniy Brikman Home Page](http://www.ybrikman.com).
+This is the code for the [David Dearing Home Page](http://dpdearing.com), forked from the code for the [Yevgeniy Brikman Home Page](http://www.ybrikman.com).
 
-![Yevgeniy Brikman Home Page Screenshot](/assets/img/screenshots/ybrikman-homepage-screenshot.png)
+![David Dearing Home Page Screenshot](/assets/img/projects/dpdearing-homepage.png)
 
-I wanted a clean, simple home page where I could put my writing, speaking,
-projects, and photos. It had to be fast, mobile-friendly, free to build, and
-easy to update. This is the result. Forks and pull requests are welcome!
+I wanted a clean, simple home page where I could put my writing and projects.
+It had to be fast, mobile-friendly, free to build, and easy to update. 
+I thought that the ybrikman website was as an excellent template, and 
+this is the result after some of my own minor modifications.  
+Forks and pull requests are welcome!
+
+**The origin repository for this fork is [brikis98/yevgeniy-brikman-homepage](/brikis98/yevgeniy-brikman-homepage)**
+
+
+---
 
 Check out [Migrating from Blogger to GitHub Pages and launching the new ybrikman.com](http://www.ybrikman.com/writing/2015/04/20/migrating-from-blogger-to-github-pages/)
 for background info.
@@ -72,8 +79,9 @@ project:
 1. I'm using [UptimeRobot](http://uptimerobot.com/) and
    [Google Analytics](http://www.google.com/analytics/) for monitoring and
    metrics.
-1. Most of the blog posts were imported from my old Blogger account, so there
-   are a few hacky Ruby scripts in `_scripts` left over from that migration.
+1. ~Most of the blog posts were imported from my old Blogger account, so there
+   are a few hacky Ruby scripts in `_scripts` left over from that migration.~
+   - _[dpd] I've purged these `_scripts` from my fork of the repo_
 
 
 

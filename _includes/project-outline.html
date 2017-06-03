@@ -3,7 +3,7 @@
   <div class="col sm-col-4 px2 mb2">
     <a href="{{ include.project.url }}" target="_blank">
       {% capture image_path %}projects/{{ include.project.image }}{% endcapture %}
-      {% include image.html path=image_path alt=include.project.name %}
+      {% include image.html path=image_path alt=include.project.name class=include.project.image_class %}
     </a>
   </div>
   <div class="col sm-col-8 px2">
