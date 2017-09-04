@@ -3,12 +3,14 @@ layout: post
 title: Getting started with OpenNLP&nbsp;1.5.0 – Sentence&nbsp;Detection and Tokenizing
 tags:
 - OpenNLP
+excerpt: OpenNLP is a poorly-documented pain in the ass to figure out.  Here's hoping that I can help myself and others understand it just a little better.
+
 ---
 OpenNLP is a poorly-documented pain in the ass to figure out.  There are [various](http://opennlp.sourceforge.net/README.html) scattered [resources](http://opennlp.apache.org/docs/1.5.3/manual/opennlp.html) you can find on the internet, none of which are particularly thorough, accurate, or up to date.
 
 The most useful that I've found is a blog post called [Getting started with OpenNLP (Natural Language Processing)](http://danielmclaren.com/node/49), but it is several years old and refers to version 1.4.3 (1.5.x is what I'll discuss here).  That post is quite helpful, but still required digging into the source code to figure out the beast that is coreference resolution. 
 
-Here's to hoping that I can add a few posts to the conversation and help both myself and maybe others.
+Here's hoping that I can add a few posts to the conversation and help both myself and maybe others.
 
 ---
 
@@ -17,8 +19,6 @@ _**Update, April 2017:**_ OpenNLP has moved over to Apache and the documentation
 ---
 
 Most (if not all) of the more advanced OpenNLP components rely on text that is broken into sentences and/or tokens, so I'm starting with those...
-
-<!--more-->
 
 - **Getting started with OpenNLP 1.5.0 - Sentence Detection and Tokenizing** (surprise, you're reading it)
 - [Part-of-Speech (POS) Tagging with OpenNLP 1.5.0]({{ site.nav.main.posts }}/2011/06/30/part-of-speech-pos-tagging-with-opennlp-1-5-0)

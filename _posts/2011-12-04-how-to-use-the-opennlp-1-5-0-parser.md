@@ -5,7 +5,7 @@ tags:
 - OpenNLP
 ---
 
-After a _(*cough*cough*)_ _brief_ delay, I'm back to figure out how in the world to make use of the Open NLP Parser.  
+I'm back to try and figure out how in the world to make use of the Open NLP Parser.  
 
 I'm only going to warn you once: this is a long post.  Go grab a beer or a glass of wine or some coffee before starting.  It's long.  Now I've warned you twice.
 

@@ -3,6 +3,7 @@ layout: post
 title: Making Coreference Resolution your bitch with OpenNLP&nbsp;1.5.0
 tags:
 - OpenNLP
+excerpt: First thing's first--what is coreference resolution?  Well, it's difficult ...
 ---
 
 First thing's first--what is coreference resolution?
@@ -10,8 +11,6 @@ First thing's first--what is coreference resolution?
 Co-reference means that multiple expressions in a sentence or document refer to the same thing.  OpenNLP contains a "linker" that analyzes the tokens of a sentences to identify which chunks of text refer to the same things (e.g., people, organizations, events).
 
 Take, for example, the sentence **"John drove to Judy's house.  He made her dinner."**  In this example both **John** and **He** refer to the same entity/person (John); and **Judy** and **her** refer to the same, different entity/person (Judy).  Don't expect OpenNLP to get this 100% correct.  Even a simple example like this is a difficult problem.
-
-<!--more-->
 
 Picking up where I left off once upon a time (and finally wrapping up this series), here are links to the old material:
 
