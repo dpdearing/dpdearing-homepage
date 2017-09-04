@@ -6,7 +6,7 @@ This is the code for the [David Dearing Home Page](http://dpdearing.com), forked
 
 I wanted a clean, simple home page where I could put my writing and projects.
 It had to be fast, mobile-friendly, free to build, and easy to update. 
-I thought that the http://www.ybrikman.com website was as an excellent template, 
+I thought that the http://www.ybrikman.com website was an excellent template, 
 and this is the result after some of my own minor modifications. 
 Forks and pull requests are welcome!
 
