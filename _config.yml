@@ -4,12 +4,12 @@ baseurl: "/"
 # Internal nav
 nav:
   main:
-    writing: "/writing"
+    posts: "/posts"
     projects: "/projects"
-  writing:
-    all: "/writing"
-    popular: "/writing/popular"
-    tags: "/writing/tags"
+  posts:
+    all: "/posts"
+    popular: "/posts/popular"
+    tags: "/posts/tags"
     rss: "/feed.xml"
 
 # Bio settings
@@ -32,8 +32,8 @@ contact_urls:
 
 # Jekyll build settings
 paginate: 10
-paginate_path: "/writing/page:num"
-permalink: "/writing/:year/:month/:day/:title/"
+paginate_path: "/posts/page:num"
+permalink: "/posts/:year/:month/:day/:title/"
 sass:
   sass_dir: "/assets/css"
   style: :compressed

@@ -13,11 +13,11 @@ I'm only going to warn you once: this is a long post.  Go grab a beer or a glass
 
 First, a quick refresher:
 
-- [Getting started with OpenNLP 1.5.0 - Sentence Detection and Tokenizing]({{ site.nav.main.writing }}/2011/05/05/opennlp-1-5-0-basics-sentence-detection-and-tokenizing)
-- [Part-of-Speech (POS) Tagging with OpenNLP 1.5.0]({{ site.nav.main.writing }}/2011/06/30/part-of-speech-pos-tagging-with-opennlp-1-5-0)
-  - [Part-of-Speech (POS) Tags: Penn English Treebank]({{ site.nav.main.writing }}/2011/12/28/opennlp-part-of-speech-pos-tags-penn-english-treebank)
+- [Getting started with OpenNLP 1.5.0 - Sentence Detection and Tokenizing]({{ site.nav.main.posts }}/2011/05/05/opennlp-1-5-0-basics-sentence-detection-and-tokenizing)
+- [Part-of-Speech (POS) Tagging with OpenNLP 1.5.0]({{ site.nav.main.posts }}/2011/06/30/part-of-speech-pos-tagging-with-opennlp-1-5-0)
+  - [Part-of-Speech (POS) Tags: Penn English Treebank]({{ site.nav.main.posts }}/2011/12/28/opennlp-part-of-speech-pos-tags-penn-english-treebank)
 - **How to use the OpenNLP 1.5.0 Parser** (surprise, you're reading it)
-- [Making Coreference Resolution your bitch with OpenNLP 1.5.0]({{ site.nav.main.writing }}/2012/11/04/making-coreference-resolution-with-opennlp-1-5-0-your-bitch)
+- [Making Coreference Resolution your bitch with OpenNLP 1.5.0]({{ site.nav.main.posts }}/2012/11/04/making-coreference-resolution-with-opennlp-1-5-0-your-bitch)
 - Extracting Names with the OpenNLP 1.5.0 Named Entity Finder
 
 ### Getting Started
@@ -48,7 +48,7 @@ and turns it into a parse tree with part-of-speech tags that looks like this:
 
 `(TOP (NP (NP (DT The) (JJ quick) (JJ brown) (NN fox) (NNS jumps)) (PP (IN over) (NP (DT the) (JJ lazy) (NN dog)))(. .)))`
 
-which is useful for performing coreference resolution. Coreference resolution identifies when multiple expressions in a sentence or document refer to the same thing.  I talk about that in the next post about [making coreference Resolution your bitch]({{ site.nav.main.writing }}/2012/11/04/making-coreference-resolution-with-opennlp-1-5-0-your-bitch).
+which is useful for performing coreference resolution. Coreference resolution identifies when multiple expressions in a sentence or document refer to the same thing.  I talk about that in the next post about [making coreference Resolution your bitch]({{ site.nav.main.posts }}/2012/11/04/making-coreference-resolution-with-opennlp-1-5-0-your-bitch).
 
 #### Creating a `Parse` object
 
@@ -147,6 +147,6 @@ Hope it helps, drop a comment if you have any problems or just to give a shout-o
 
 ---
 
-_**Next Step:**_ [Making Coreference Resolution your bitch with OpenNLP 1.5.0]({{ site.nav.main.writing }}/2012/11/04/making-coreference-resolution-with-opennlp-1-5-0-your-bitch)
+_**Next Step:**_ [Making Coreference Resolution your bitch with OpenNLP 1.5.0]({{ site.nav.main.posts }}/2012/11/04/making-coreference-resolution-with-opennlp-1-5-0-your-bitch)
 
 My source code and test cases can be found at [https://github.com/dpdearing/nlp](https://github.com/dpdearing/nlp)

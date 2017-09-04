@@ -1,16 +1,16 @@
 ---
 layout: default
-title: "David Dearing: Writing"
+title: "David Dearing: All Posts"
 redirect_from: "/blog"
-nav_item: writing
-nav_item_writing: all
-header_title: Writing
-include_header: writing_header.html
+nav_item: posts
+nav_item_posts: all
+header_title: All posts
+include_header: posts_header.html
 include_comments:
   count: true
 ---
 
-{% include writing-nav.html %}
+{% include posts-nav.html %}
 {% for post in paginator.posts %}
   {% include post-outline.html post=post %}
 {% endfor %}

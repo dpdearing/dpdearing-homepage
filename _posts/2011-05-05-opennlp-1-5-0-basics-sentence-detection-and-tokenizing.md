@@ -21,10 +21,10 @@ Most (if not all) of the more advanced OpenNLP components rely on text that is b
 <!--more-->
 
 - **Getting started with OpenNLP 1.5.0 - Sentence Detection and Tokenizing** (surprise, you're reading it)
-- [Part-of-Speech (POS) Tagging with OpenNLP 1.5.0]({{ site.nav.main.writing }}/2011/06/30/part-of-speech-pos-tagging-with-opennlp-1-5-0)
-  - [Part-of-Speech (POS) Tags: Penn English Treebank]({{ site.nav.main.writing }}/2011/12/28/opennlp-part-of-speech-pos-tags-penn-english-treebank)
-- [How to use the OpenNLP 1.5.0 Parser]({{ site.nav.main.writing }}/2011/12/04/how-to-use-the-opennlp-1-5-0-parser)
-- [Making Coreference Resolution your bitch with OpenNLP 1.5.0]({{ site.nav.main.writing }}/2012/11/04/making-coreference-resolution-with-opennlp-1-5-0-your-bitch)
+- [Part-of-Speech (POS) Tagging with OpenNLP 1.5.0]({{ site.nav.main.posts }}/2011/06/30/part-of-speech-pos-tagging-with-opennlp-1-5-0)
+  - [Part-of-Speech (POS) Tags: Penn English Treebank]({{ site.nav.main.posts }}/2011/12/28/opennlp-part-of-speech-pos-tags-penn-english-treebank)
+- [How to use the OpenNLP 1.5.0 Parser]({{ site.nav.main.posts }}/2011/12/04/how-to-use-the-opennlp-1-5-0-parser)
+- [Making Coreference Resolution your bitch with OpenNLP 1.5.0]({{ site.nav.main.posts }}/2012/11/04/making-coreference-resolution-with-opennlp-1-5-0-your-bitch)
 - Extracting Names with the OpenNLP 1.5.0 Named Entity Finder
 
 ### Getting Started
@@ -155,6 +155,6 @@ Tokens:
 
 ---
 
-**_Next Step:_** [Part-of-Speech (POS) Tagging with OpenNLP 1.5.0]({{ site.nav.main.writing }}/2011/06/30/part-of-speech-pos-tagging-with-opennlp-1-5-0)
+**_Next Step:_** [Part-of-Speech (POS) Tagging with OpenNLP 1.5.0]({{ site.nav.main.posts }}/2011/06/30/part-of-speech-pos-tagging-with-opennlp-1-5-0)
 
 My source code and test cases can be found at [https://github.com/dpdearing/nlp](https://github.com/dpdearing/nlp)

@@ -1,15 +1,15 @@
 ---
 layout: default
-title: "David Dearing: Popular Writing"
-nav_item: writing   
-nav_item_writing: popular 
+title: "David Dearing: Popular Posts"
+nav_item: posts   
+nav_item_posts: popular 
 header_title: Popular posts
-include_header: writing_header.html
+include_header: posts_header.html
 include_comments:
   count: true
 ---
 
-{% include writing-nav.html %}
+{% include posts-nav.html %}
 
 {% for post in site.posts %}
   {% if post.add_to_popular_list %}  

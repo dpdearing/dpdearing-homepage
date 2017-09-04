@@ -5,7 +5,7 @@ tags:
 - OpenNLP
 ---
 
-In the comments on my post about part-of-speech tagging, [Manu asks]({{ site.nav.main.writing }}/2011/06/30/part-of-speech-pos-tagging-with-opennlp-1-5-0#comment-342)
+In the comments on my post about part-of-speech tagging, [Manu asks]({{ site.nav.main.posts }}/2011/06/30/part-of-speech-pos-tagging-with-opennlp-1-5-0#comment-342)
 
 > Can you post a legend what the pos tags stand for? At the moment I’m working on a project where I use this and I dont know at the moment how much tags there are and what e.g. “JJ”, “IN” and the rest of them means. This would be very helpful.
 
