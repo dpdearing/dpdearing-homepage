@@ -14,10 +14,10 @@ Take, for example, the sentence **"John drove to Judy's house.  He made her dinn
 
 Picking up where I left off once upon a time (and finally wrapping up this series), here are links to the old material:
 
-- [Getting started with OpenNLP 1.5.0 - Sentence Detection and Tokenizing]({{ site.nav.main.posts }}/2011/05/05/opennlp-1-5-0-basics-sentence-detection-and-tokenizing)
-- [Part-of-Speech (POS) Tagging with OpenNLP 1.5.0]({{ site.nav.main.posts }}/2011/06/30/part-of-speech-pos-tagging-with-opennlp-1-5-0)
-  - [Part-of-Speech (POS) Tags: Penn English Treebank]({{ site.nav.main.posts }}/2011/12/28/opennlp-part-of-speech-pos-tags-penn-english-treebank)
-- [How to use the OpenNLP 1.5.0 Parser]({{ site.nav.main.posts }}/2011/12/04/how-to-use-the-opennlp-1-5-0-parser)
+- [Getting started with OpenNLP 1.5.0 - Sentence Detection and Tokenizing]({{ site.nav.main.posts }}/2011/05/opennlp-1-5-0-basics-sentence-detection-and-tokenizing)
+- [Part-of-Speech (POS) Tagging with OpenNLP 1.5.0]({{ site.nav.main.posts }}/2011/06/part-of-speech-pos-tagging-with-opennlp-1-5-0)
+  - [Part-of-Speech (POS) Tags: Penn English Treebank]({{ site.nav.main.posts }}/2011/12/opennlp-part-of-speech-pos-tags-penn-english-treebank)
+- [How to use the OpenNLP 1.5.0 Parser]({{ site.nav.main.posts }}/2011/12/how-to-use-the-opennlp-1-5-0-parser)
 - **Making Coreference Resolution your bitch with OpenNLP 1.5.0** (surprise, you're reading it)
 - Extracting Names with the OpenNLP 1.5.0 Named Entity Finder
 
