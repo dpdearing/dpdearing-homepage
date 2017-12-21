@@ -1,5 +1,5 @@
 # Website settings
-baseurl: "/"
+baseurl: "http://dpdearing.com"
 
 # Internal nav
 nav:
