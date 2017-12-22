@@ -43,7 +43,7 @@ timezone: 'America/Los_Angeles'
 repository: dpdearing/dpdearing-homepage
 
 # Plugins (GitHub Pages only support a few)
-gems:
+plugins:
   - jekyll-redirect-from
   - jekyll-sitemap
   - jekyll-paginate
