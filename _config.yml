@@ -1,5 +1,5 @@
 # Website settings
-baseurl: "http://dpdearing.com"
+#baseurl: "" # should not include hostname
 
 # Internal nav
 nav:
