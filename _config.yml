@@ -1,5 +1,5 @@
 # Website settings
-#baseurl: "" # should not include hostname
+baseurl: "" # should not include hostname
 
 # Internal nav
 nav:
