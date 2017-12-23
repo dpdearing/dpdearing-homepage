@@ -3,6 +3,8 @@ layout: post
 title: OpenNLP Part-of-Speech (POS) Tags&#58; Penn&nbsp;English&nbsp;Treebank
 tags:
 - OpenNLP
+redirect_from:
+  - /2011/12/opennlp-part-of-speech-pos-tags-penn-english-treebank/
 excerpt: In the comments on my post about part-of-speech tagging, Manu asks, "Can you post a legend what the pos tags stand for? ...
 ---
 
