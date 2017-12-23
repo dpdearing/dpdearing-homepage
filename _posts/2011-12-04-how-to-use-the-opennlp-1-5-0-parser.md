@@ -3,6 +3,8 @@ layout: post
 title: How to use the OpenNLP&nbsp;1.5.0 Parser
 tags:
 - OpenNLP
+redirect_from:
+  - /2011/12/how-to-use-the-opennlp-1-5-0-parser/
 ---
 
 I'm back to try and figure out how in the world to make use of the Open NLP Parser.  
