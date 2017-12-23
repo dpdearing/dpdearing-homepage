@@ -3,6 +3,8 @@ layout: post
 title: Getting started with OpenNLP&nbsp;1.5.0 – Sentence&nbsp;Detection and Tokenizing
 tags:
 - OpenNLP
+redirect_from:
+  - /2011/05/opennlp-1-5-0-basics-sentence-detection-and-tokenizing/
 excerpt: OpenNLP is a poorly-documented pain in the ass to figure out.  Here's hoping that I can help myself and others understand it just a little better.
 
 ---
