@@ -66,7 +66,7 @@ However, I've noticed that the resulting parse does not have punctuation separat
 
 ---
 
-This code uses the `_tokenizer` so before moving on make sure that you've already tackled [sentence detection and tokenization](2011-05-05-opennlp-1-5-0-basics-sentence-detection-and-tokenizing) before proceeding.
+This code uses the `_tokenizer` so before moving on make sure that you've already tackled [sentence detection and tokenization]({{ site.nav.main.posts }}/2011/05/opennlp-1-5-0-basics-sentence-detection-and-tokenizing) before proceeding.
 
 No really, go read that link.  I'm not fucking around.
 
