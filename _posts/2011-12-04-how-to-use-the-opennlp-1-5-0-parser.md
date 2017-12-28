@@ -60,7 +60,7 @@ First, for some silly reason, you need to create your own `Parse` object.  Yes, 
 
 ---
 
-_**Update:**_ As [iosu notes in the comments](#comment-1471), all of this logic to create a `Parse` object could be replaced with a simple call to **`ParserTool.parseLine(sentence, _parser, 1)`** after [initializing `_parser` as shown below](#parsing-a-parse).
+_**Update:**_ As [iosu notes in the comments](#comment-3674600553), all of this logic to create a `Parse` object could be replaced with a simple call to **`ParserTool.parseLine(sentence, _parser, 1)`** after [initializing `_parser` as shown below](#parsing-a-parse).
 
 However, I've noticed that the resulting parse does not have punctuation separately tokenized (i.e., in the example parse tree above, `(NN dog)` is now `(NN dog.)`) which leads to some [differences during Coreference Resolution](#update1).
 
@@ -76,7 +76,7 @@ Done?  OK, here's how to create your own `Parse` from an array of tokens:
 
 ---
 
-_**Update:**_ Thanks to [a comment by Jonathan Huts](#comment-1165), I've simplified the following code to use the Tokenizer's **`tokenizePos`** method, which will save you from manually creating the individual token spans.
+_**Update:**_ Thanks to [a comment by Jonathan Huts](#comment-3674600557), I've simplified the following code to use the Tokenizer's **`tokenizePos`** method, which will save you from manually creating the individual token spans.
 
 ---
 
