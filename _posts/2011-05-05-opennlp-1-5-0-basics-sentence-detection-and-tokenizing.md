@@ -59,7 +59,7 @@ I use maven, so I just drop these files into `src/main/resources` and load them 
 
 ### Sentence Detection
 
-The Sentence Detector is actually described well in the [Apache OpenNLP Developer Documentation on Sentence Detection](https://opennlp.apache.org/documentation/1.7.2/manual/opennlp.html#tools.sentdetect.detection), so I'll just quote what's there (errors theirs, emphasis mine):
+The Sentence Detector is actually described well in the [Apache OpenNLP Developer Documentation on Sentence Detection](http://opennlp.apache.org/docs/1.5.3/manual/opennlp.html#tools.sentdetect.detection), so I'll just quote what's there (errors theirs, emphasis mine):
 
 > The **OpenNLP Sentence Detector can detect that a punctuation character marks the end of a sentence or not**. In this sense a sentence is defined as the longest white space trimmed character sequence between two punctuation marks. The first and last sentence make an exception to this rule. The first non whitespace character is assumed to be the begin of a sentence, and the last non whitespace character is assumed to be a sentence end.
 >
@@ -100,7 +100,7 @@ _sentenceDetector.sentDetect(content);
 
 ### Tokenizing
 
-Once again, for these simple components the [Apache OpenNLP Developer Documentation on the Tokenizer](https://opennlp.apache.org/documentation/1.7.2/manual/opennlp.html#tools.tokenizer.introduction) has a good description:
+Once again, for these simple components the [Apache OpenNLP Developer Documentation on the Tokenizer](http://opennlp.apache.org/docs/1.5.3/manual/opennlp.html#tools.tokenizer.introduction) has a good description:
 
 > The OpenNLP Tokenizers segment an input character sequence into tokens. Tokens are usually words, punctuation, numbers, etc.
 
