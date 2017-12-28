@@ -31,7 +31,7 @@ Coreference resolution uses a folder of pre-trained model libraries.  You will n
 I placed these files in `lib/opennlp/coref` and pass that path directly to the `Linker` constructor, as you'll see below.
 
 #### WordNet Dictionary
-You'll also need the database files for the WordNet dictionary.  You can find them at [http://wordnet.princeton.edu/wordnet/download/current-version](http://wordnet.princeton.edu/wordnet/download/current-version), but (as [Samyak noted in the comments](http://blog.dpdearing.com/2012/11/making-coreference-resolution-with-opennlp-1-5-0-your-bitch/#comment-73245)) the WordNet 3.0 "just database files" seems to be incomplete.  Instead, get the `dict` folder from either the full source code and binaries or try the link for the WordNet 3.1 database files.
+You'll also need the database files for the WordNet dictionary.  You can find them at [http://wordnet.princeton.edu/wordnet/download/current-version](http://wordnet.princeton.edu/wordnet/download/current-version), but (as [Samyak noted in the comments](#comment-3674600521)) the WordNet 3.0 "just database files" seems to be incomplete.  Instead, get the `dict` folder from either the full source code and binaries or try the link for the WordNet 3.1 database files.
 
 Once you have the necessary `dict` folder, specify its location as a java VM argument:
 
@@ -122,7 +122,7 @@ And here are the groups of entities that OpenNLP will extract, including (for so
 
 ---
 
-_**Update:**_ I get different results if using **`ParserTool.parseLine(..)`**--[as described here]({% post_url 2011-12-04-how-to-use-the-opennlp-1-5-0-parser %}#update2)--instead of the procedure described in [my post on the Parser]({% post_url 2011-12-04-how-to-use-the-opennlp-1-5-0-parser %}).  Entity names include additional trailing punctuation and entity resolution appears to be even worse:
+_**Update:**_ I get different results if using the alternate approach to `parseSentence`, which uses `ParserTool.parseLine(..)` instead of my own implementation ([as described in this update on my post about the OpenNLP Parser]({% post_url 2011-12-04-how-to-use-the-opennlp-1-5-0-parser %}#update2)).  Entity names include additional trailing punctuation and entity resolution appears to be even worse:
 
 - `[this British industrial conglomerate. ]`
 - `[chairman ]`
