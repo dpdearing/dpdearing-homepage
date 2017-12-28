@@ -10,7 +10,7 @@ excerpt: OpenNLP is a poorly-documented pain in the ass to figure out.  Here's 
 ---
 OpenNLP is a poorly-documented pain in the ass to figure out.  There are [various](http://opennlp.sourceforge.net/README.html) scattered [resources](http://opennlp.apache.org/docs/1.5.3/manual/opennlp.html) you can find on the internet, none of which are particularly thorough, accurate, or up to date.
 
-The most useful that I've found is a blog post called [Getting started with OpenNLP (Natural Language Processing)](http://danielmclaren.com/node/49), but it is several years old and refers to version 1.4.3 (1.5.x is what I'll discuss here).  That post is quite helpful, but still required digging into the source code to figure out the beast that is coreference resolution. 
+The most useful that I've found is a blog post called [Getting started with OpenNLP (Natural Language Processing)](http://danielmclaren.com/node/49) *(which now appears to be dead, but can be [read using the Wayback Machine](https://web.archive.org/web/20161201042620/http://danielmclaren.com/node/49))*, but it is several years old and refers to version 1.4.3 (1.5.x is what I'll discuss here).  That post is quite helpful, but still required digging into the source code to figure out the beast that is coreference resolution. 
 
 Here's hoping that I can add a few posts to the conversation and help both myself and maybe others.
 
