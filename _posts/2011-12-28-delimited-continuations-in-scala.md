@@ -5,11 +5,12 @@ tags:
 - Scala
 redirect_from:
   - /2011/12/delimited-continuations-in-scala/
+excerpt: Delimited continuations are like a functional version of GOTO statements, but much less evil.  They are a way of changing the execution flow of a program, which makes them very powerful but also _extremely_ confusing.
 ---
 First, the teaser:
 > [Swarm](http://swarmframework.org) is a framework allowing the creation of web applications which can scale transparently through a novel portable continuation-based approach. Like Map-Reduce, Swarm follows the maxim "move the computation, not the data". However Swarm takes the concept much further, allowing it to be applied to almost any computation, not just those that can be broken down into map and reduce operations.
 
-This is pretty cool.  It is accomplished using Scala delimited continuations, which are confusing.
+This is pretty cool.  It is accomplished using Delimited Continuations with the [Scala continuations plugin](https://github.com/scala/scala-continuations).  Delimited continuations are like a functional version of GOTO statements, but way less evil.  They are a way of changing the execution flow of a program, which makes them very powerful but also _extremely_ confusing.
 
 [Delimited Continuations Explained (in Scala)](http://dcsobral.blogspot.com/2009/07/delimited-continuations-explained-in.html)
 
@@ -43,7 +44,7 @@ baz()
 // 70
 ```
 
-The Clif Notes version of how this works:
+**The CliffsNotes version of how this works:**
 
 1. The code before `shift` is executed once
 1. The code after `shift` as many times as the function `k` inside `shift` is repeated
