@@ -5,7 +5,7 @@ tags:
 - Scala
 redirect_from:
   - /2011/12/delimited-continuations-in-scala/
-excerpt: Delimited continuations are like a functional version of GOTO statements, but much less evil.  They are a way of changing the execution flow of a program, which makes them very powerful but also _extremely_ confusing.
+excerpt: Delimited continuations are like a functional version of GOTO statements, but much less evil.  They are a way of changing the execution flow of a program, which makes them very powerful but also extremely confusing.
 ---
 First, the teaser:
 > [Swarm](http://swarmframework.org) is a framework allowing the creation of web applications which can scale transparently through a novel portable continuation-based approach. Like Map-Reduce, Swarm follows the maxim "move the computation, not the data". However Swarm takes the concept much further, allowing it to be applied to almost any computation, not just those that can be broken down into map and reduce operations.
