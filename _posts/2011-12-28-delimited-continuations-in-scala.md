@@ -19,11 +19,11 @@ _**Update:**_ Well, that didn't work. I had to read it again anyway!
 
 ---
 
-In Scala, continuations will be used through two keywords: <code>reset</code> and <code>shift</code>. Like <code>catch</code> and <code>throw</code>, a <code>shift</code> always happen inside a <code>reset</code>, the latter being responsible for delimiting the scope of the continuation.
+In Scala, continuations will be used through two keywords: `reset` and `shift`. Like `catch` and `throw`, a `shift` always happen inside a `reset`, the latter being responsible for delimiting the scope of the continuation.
 
 Wait.  What?
 
-<strong><code>reset</code> is responsible for delimiting the scope of the continuation</strong>
+<strong>`reset` is responsible for delimiting the scope of the continuation</strong>
 
 Oh, that didn't clear things up?  How about an example:
 ```scala
@@ -46,31 +46,31 @@ baz()
 The Clif Notes version of how this works:
 
 1. The code before `shift` is executed once
-1. The code after `shift` as many times as the function (`k`) inside `shift` is repeated
-1. the code inside the `shift` itself is only executed once, but is interrupted--going back and forth to the code after it (until the end of `reset`)
+1. The code after `shift` as many times as the function `k` inside `shift` is repeated
+1. the code inside the `shift` itself is only executed once, but is interrupted--going back and forth to the code after it (up until the end of the `reset` block)
 
 ---
 
-The first thing to recognize is that shifts are functions taking a parameter, and that parameter is another function.  In this example, that parameter is the function <code>{ k => ... }</code>.  Not only that, but this example defines the type of `k` as being `Int => Int`, which is itself a function.
+The first thing to recognize is that shifts are functions taking a parameter, and that parameter is another function.  In this example, that parameter is the function `{ k => ... }`.  Not only that, but this example defines the type of `k` as being `Int => Int`, which is itself a function.
 
-When the continuation function <code>k</code> is executed (from _within_ the <code>shift</code> block):
+When the continuation function `k` is executed (from _within_ the `shift` block):
 
-1. Execution skips over the rest of the <code>shift</code> block and begins again at the end of it
-1. Execution continues until the end of the <code>reset</code> block
-1. Execution then resumes within the <code>shift</code> block after the already-completed execution of <code>k</code> until reaching the end of the <code>shift</code> block again
-1. Execution skips to the end of the <code>reset</code> block
-1. Repeat the previous two steps for each call to <code>k</code> within the <code>shift</code> block
+1. Execution skips over the rest of the `shift` block and begins again at the end of it
+1. Execution continues until the end of the `reset` block
+1. Execution then resumes within the `shift` block after the already-completed execution of `k` until reaching the end of the `shift` block again
+1. Execution skips to the end of the `reset` block
+1. Repeat the previous two steps for each call to `k` within the `shift` block
 
 So what happens in the above example is:
-1. <code>baz()</code> is called, which calls <code>bar()</code>, and then <code>foo()</code>
-1. <code>foo()</code> prints <code>Once here.</code>
-1. The <code>shift</code> block is entered, which recursively calls <code>k</code>.  The innermost call to <code>k(7)</code> occurs first, and execution skips to the end of the <code>shift</code> block.  The result is 7.
-1. Now <code>foo()</code> is complete and we're in <code>bar()</code>, adding 1 to 7 (the result) = 8
-1. Back in <code>baz()</code>, 8 (the result) * 2 = 16
-1. We reach the end of the <code>reset</code> block and resume execution in the <code>shift</code> block, after the previous execution of <code>k</code>.  The second call to <code>k</code> occurs with the current value of 16.  Execution again skips to the end of the <code>shift</code> block and returns to <code>bar()</code> with this new result of 16
+1. `baz()` is called, which calls `bar()`, and then `foo()`
+1. `foo()` prints `Once here.`
+1. The `shift` block is entered, which recursively calls `k`.  The innermost call to `k(7)` occurs first, and execution skips to the end of the `shift` block.  The result is 7.
+1. Now `foo()` is complete and we're in `bar()`, adding 1 to 7 (the result) = 8
+1. Back in `baz()`, 8 (the result) * 2 = 16
+1. We reach the end of the `reset` block and resume execution in the `shift` block, after the previous execution of `k`.  The second call to `k` occurs with the current value of 16.  Execution again skips to the end of the `shift` block and returns to `bar()` with this new result of 16
 1. 1 + 16 = 17
 1. 17 * 2 = 34
-1. Reach the end of the <code>reset</code> block again and resume at the end of the second call to <code>k</code>, leading to the third and final call to <code>k</code> with the current value of 34
+1. Reach the end of the `reset` block again and resume at the end of the second call to `k`, leading to the third and final call to `k` with the current value of 34
 1. 1 + 34 = 35
 1. 35 * 2= 70
 
