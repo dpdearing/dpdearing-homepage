@@ -6,3 +6,9 @@
   image: "dpdearing-homepage.jpg"
   image_class: border
   url: "https://github.com/dpdearing/dpdearing-homepage"
+- name: "NLP Sandbox"
+  date: "2011"
+  description: |
+    A sandbox for trying out NLP tools in Java. Currently uses Apache OpenNLP 1.5
+  image_class: border
+  url: "https://github.com/dpdearing/nlp"
