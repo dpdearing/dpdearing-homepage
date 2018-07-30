@@ -6,7 +6,7 @@ tags:
 redirect_from:
   - /2011/05/opennlp-1-5-0-basics-sentence-detection-and-tokenizing/
 excerpt: OpenNLP is a poorly-documented pain in the ass to figure out.  Here's hoping that I can help myself and others understand it just a little better.
-
+add_to_popular_list: true
 ---
 OpenNLP is a poorly-documented pain in the ass to figure out.  There are [various](http://opennlp.sourceforge.net/README.html) scattered [resources](http://opennlp.apache.org/docs/1.5.3/manual/opennlp.html) you can find on the internet, none of which are particularly thorough, accurate, or up to date.
 
