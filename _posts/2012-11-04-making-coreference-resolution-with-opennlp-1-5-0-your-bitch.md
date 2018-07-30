@@ -5,7 +5,8 @@ tags:
 - OpenNLP
 redirect_from:
   - /2012/11/making-coreference-resolution-with-opennlp-1-5-0-your-bitch/
-excerpt: First thing's first--what is coreference resolution?  Well, it's difficult ...
+excerpt: First thing's first--what is coreference resolution?  Well, it's complicated ...
+add_to_popular_list: true
 ---
 
 First thing's first--what is coreference resolution?
