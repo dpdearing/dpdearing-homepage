@@ -5,6 +5,7 @@ tags:
 - OpenNLP
 redirect_from:
   - /2011/12/how-to-use-the-opennlp-1-5-0-parser/
+add_to_popular_list: true
 ---
 
 I'm back to try and figure out how in the world to make use of the Open NLP Parser.  
