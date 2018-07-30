@@ -13,3 +13,10 @@
   image: "GitHub-Mark-120px-plus.png"
   image_class: center
   url: "https://github.com/dpdearing/nlp"
+- name: "Seattle Homebrew Website"
+  date: "2010"
+  description: |
+    Brewing and drinking beer in Seattle
+  image: "seattlehomebrew.jpg"
+  image_class: border
+  url: "http://seattlehomebrew.com"
