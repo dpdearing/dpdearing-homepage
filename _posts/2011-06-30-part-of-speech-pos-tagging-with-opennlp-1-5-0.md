@@ -5,6 +5,7 @@ tags:
 - OpenNLP
 redirect_from:
   - /2011/06/part-of-speech-pos-tagging-with-opennlp-1-5-0/
+add_to_popular_list: true
 ---
 Continuing from where I left off, I'm going to quickly touch on part-of-speech tagging before moving on.  It's actually pretty straightforward once you're set up to run OpenNLP.  
 
