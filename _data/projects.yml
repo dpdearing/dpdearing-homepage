@@ -10,5 +10,6 @@
   date: "2011"
   description: |
     A sandbox for trying out NLP tools in Java. Currently uses Apache OpenNLP 1.5
-  image_class: border
+  image: "GitHub-Mark-120px-plus.png"
+  image_class: center
   url: "https://github.com/dpdearing/nlp"
