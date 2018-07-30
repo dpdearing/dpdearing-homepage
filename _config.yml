@@ -29,6 +29,11 @@ contact_urls:
     url: "https://github.com/dpdearing"
     label: "GitHub"
     icon: "github-square"
+  stackoverflow:
+    url: "https://stackoverflow.com/users/186818/dpdearing"
+    label: "Stack&nbsp;Overflow"
+    icon: "square fa-stack-2x"
+    icon2: "stack-overflow fa-stack-1x fa-inverse"
 
 # Jekyll build settings
 excerpt_separator: <!--more-->
