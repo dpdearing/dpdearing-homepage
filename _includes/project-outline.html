@@ -5,10 +5,11 @@
     <a href="{{ include.project.url }}" target="_blank">
       {% if include.project.image %}
         {% capture image_path %}projects/{{ include.project.image }}{% endcapture %}
+        {% include image.html path=image_path alt=include.project.name class=include.project.image_class %}
       {% elsif include.project.image_url %}
         {% capture image_path %}{{ include.project.image_url }}{% endcapture %}
+        {% include image.html external=true path=image_path alt=include.project.name class=include.project.image_class %}
       {% endif %}
-      {% include image.html path=image_path alt=include.project.name class=include.project.image_class %}
     </a>
   </div>
   {% endif %}
