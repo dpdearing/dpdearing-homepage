@@ -6,6 +6,13 @@
   image: "dpdearing-homepage.jpg"
   image_class: border
   url: "https://github.com/dpdearing/dpdearing-homepage"
+- name: "Android GPS Emulator"
+  date: "2014"
+  description: |
+    A GPS location emulator for changing/setting/simulating the GPS location of the Android emulator through a simple map-based interface.
+  image_url: "https://dpdearing.github.io/android-gps-emulator/img/android-gps-emulator.png"
+  image_class: center
+  url: "https://github.com/dpdearing/android-gps-emulator"
 - name: "NLP Sandbox"
   date: "2011"
   description: |
