@@ -1,9 +1,13 @@
 {% capture project_title_element %}{% if include.project_title_element %}{{ include.project_title_element }}{% else %}h2{% endif %}{% endcapture %}
 <div class="mxn2 clearfix mb2 py3{% unless include.exclude_divider %} border-bottom border-light-gray circle-line {% endunless %}">
-  {% if include.project.image %}
+  {% if include.project.image or include.project.image_url %}
   <div class="col sm-col-4 px2 mb2">
     <a href="{{ include.project.url }}" target="_blank">
-      {% capture image_path %}projects/{{ include.project.image }}{% endcapture %}
+      {% if include.project.image %}
+        {% capture image_path %}projects/{{ include.project.image }}{% endcapture %}
+      {% elsif include.project.image_url %}
+        {% capture image_path %}{{ include.project.image_url }}{% endcapture %}
+      {% endif %}
       {% include image.html path=image_path alt=include.project.name class=include.project.image_class %}
     </a>
   </div>
