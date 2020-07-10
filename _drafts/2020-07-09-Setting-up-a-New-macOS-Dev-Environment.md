@@ -1,3 +1,6 @@
+---
+published: false
+---
 ## A New Post
 
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
@@ -18,7 +21,7 @@ I prefer to keep iCloud disabled until later so that it doesn't auto-link *every
 - Trackpad (& Accessibility)
 - Touch ID
 - Clean up the Dock
-
+- Finder/sidebar
 
 ## Homebrew
 - Python - pyenv
@@ -32,8 +35,9 @@ I prefer to keep iCloud disabled until later so that it doesn't auto-link *every
   - configuration?
   - hotspot
 - Spotify
-- Hermes (Pandora)
-  
+- Hermes (Pandora)  
+- Sublime Text (finally decided I like it better than Atom)
+
 ## Dev Tools
 - Visual Studio Code
 - Fork, SourceTree?
@@ -43,6 +47,12 @@ I prefer to keep iCloud disabled until later so that it doesn't auto-link *every
 - SDKMan
 - Docker
 
+
+## Git
+
+## nvm
+
+## 
 
 ## Home Tools
 - 1Password (6)
@@ -57,5 +67,3 @@ Yikes
 - Shared folder permissions
 - Shared Pictures and symlinks
 - Projects Folder
-
-
