@@ -24,7 +24,9 @@ I prefer to keep iCloud disabled until later so that it doesn't auto-link *every
 - Finder/sidebar
 
 ## Homebrew
-- Python - pyenv
+- Python: https://opensource.com/article/19/5/python-3-default-mac#what-we-should-do
+  - brew install pyenv
+  - tkinter (for 17lands) https://stackoverflow.com/a/60469203/186818
 
 ## Tools
 
